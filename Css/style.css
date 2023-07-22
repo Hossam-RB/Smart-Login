@@ -1,0 +1,9 @@
+.conntent{
+    border-bottom: 3px dotted black ;
+    border-top: 3px dotted black ;
+}
+h1{
+    font-family:  cursive;
+    font-size: 60px;
+    isolation:isolate;
+}

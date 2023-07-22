@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head >
+    <title>Book Mark</title>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body class="bg-body-secondary">
+
+    <header class=" vh-100 mx-auto" >
+        <h1 class="text-center p-5 text-success fw-bolder ">Book marker</h1>
+<div class="conntent container p-3">
+        <h2 class="text-center p-3 text-info">
+            <i class="fa-solid fa-bookmark "></i>
+            Bookmark Your Favorite Site
+            <i class="fa-solid fa-bookmark"></i>
+
+        </h2>
+        <div class="input1 m-2">
+<label for="siteName" class="fw-bolder mb-2 ms-2">
+    <i class="fa-solid fa-book-bookmark pe-2"></i>
+    Site Name</label> 
+<br>
+        <input type="text" class="form-control" placeholder="Bookmark Name" id="siteName">
+    </div>
+    <div class="input2 m-2">
+        <label for="siteURl" class="fw-bolder mb-2 ms-2">
+            <i class="fa-solid fa-link pe-2"></i>
+            Site URL</label>
+        <br>
+        <input type="text" placeholder="Bookmark URL" class="form-control" id="siteURl">
+        <div class="d-flex justify-content-center my-3 ">
+            <button onclick="addUrl()" class="btn btn-outline-warning p-2 w-25 ">Submit</button>
+        </div>
+    </div>
+    </div>
+
+    <table class="table table-striped container mt-4 mb-5 text-center">
+<thead>
+    <th>index</th>
+    <th>webSite Name</th>
+    <th> Visit</th>
+    <th>Delete</th>
+</thead>
+<tbody id="tBody">
+
+</tbody>
+    </table>
+    
+
+    </header>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+
+</html>
